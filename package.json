@@ -1,0 +1,27 @@
+{
+  "name": "lczero_play_frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "watch": "./node_modules/.bin/nodemon",
+    "deploy": "gcloud app deploy app.yaml --no-promote --project oss-lc0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [],
+  "repository": "github:jeremylorino/lczero-play-frontend",
+  "author": "Jeremy Lorino <jeremylorino@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}

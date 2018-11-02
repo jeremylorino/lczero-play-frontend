@@ -1,0 +1,4 @@
+runtime: nodejs8
+
+env_variables:
+  BACKEND_API_URL: "http://lc0.example.com"

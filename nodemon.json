@@ -1,0 +1,17 @@
+{
+  "restartable": "rs",
+  "ignore": [],
+  "verbose": true,
+  "execMap": {
+    "js": "node"
+  },
+  "watch": [
+    "src/**",
+    "public/**"
+  ],
+  "env": {
+    "NODE_ENV": "development",
+    "BACKEND_API_URL": "http://lc0.jeremylorino.com"
+  },
+  "ext": "js json"
+}
